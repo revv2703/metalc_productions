@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
 import ParticlesContainer from "../components/ParticlesContainer";
+import SpaceshipsCanvas from "./components/Spaceships";
 
 const Home = () => {
   return (
@@ -17,9 +18,10 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            MetAlc <br />
+            <span className="text-accent">Productions</span>
           </motion.h1>
+          <SpaceshipsCanvas />
 
           {/* subtitle */}
           <motion.p
@@ -29,10 +31,8 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            Transforming Ideas Into{" "}
+            <span className="text-accent">Digital Reality</span>
           </motion.p>
 
           {/* btn */}
