@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
 import ParticlesContainer from "../components/ParticlesContainer";
-import SpaceshipsCanvas from "./components/Spaceships";
+import SpaceshipsCanvas from "../components/canvas/Spaceships";
 
 const Home = () => {
   return (
@@ -62,7 +62,7 @@ const Home = () => {
         {/* particles */}
         <ParticlesContainer />
 
-       
+
       </div>
     </div>
   );
